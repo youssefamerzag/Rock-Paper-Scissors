@@ -19,13 +19,14 @@ body {
   }
   
   #imgs {
+    justify-content: center;
     display: flex;
-    justify-content: space-around;
     margin-top: 50px;
   }
   
   #imgs img {
-    width: 200px;
+    margin: 0px 30px;
+    width: 150px;
     cursor: pointer;
   }
   
@@ -34,7 +35,7 @@ body {
   }
   
   .botchoose {
-    width: 200px;
+    width: 150px;
   }
   
   h1 {
@@ -54,4 +55,12 @@ body {
     margin: 10px;
     border: none;
     border-radius: 5px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    #imgs img {
+        margin: 0px 10px;
+        width: 150px;
+        cursor: pointer;
+      }
   }

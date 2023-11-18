@@ -60,7 +60,7 @@ const [result , setResult] = useState('')
       <div id='link'>
         <a href='https://github.com/youssefamerzag'><img width="50" height="50" src="https://img.icons8.com/glyph-neue/64/github.png"   alt="github"/></a>
         <a href='https://linkedin.com/in/youssefamerzag'><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/linkedin.png" alt="linkedin"/></a>
-        </div>
+      </div>
 
       <p id='title'>Rock Paper Scissors </p>
       {/* <p>Player :  {playerScore} |  Computer : {botScore} </p> */}
